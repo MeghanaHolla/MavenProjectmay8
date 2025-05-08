@@ -14,11 +14,13 @@ public class AppTest {
     WebDriver driver;
     @BeforeTest
     public void a(){
+        //new comment
          driver = new ChromeDriver();
         driver.get("https://magento.softwaretestingboard.com/customer/account/create/");
 
     }
     @Test
+    //abcd
     public void b(){
         String expectedTitle = "Create New Customer Account";
         String actualTitle = driver.getTitle();
